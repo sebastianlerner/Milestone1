@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Toast.makeText(this, "Test Toast",
+        Toast.makeText(this, "Test git",
                 Toast.LENGTH_LONG).show();
     }
 }
