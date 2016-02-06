@@ -14,6 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
+import android.util.Log;
 public class MainActivity extends AppCompatActivity {
     //String[] mobileArray = {"Streak the lawn","Eat a gus burger","Eat at all 3 dining halls","Kiss a first year","Quarry","Carter Mountain","High-five Dean Groves","Steam tunnels"};
     private ArrayList<String> items = new ArrayList<>(Arrays.asList("Streak the lawn","Eat a gus burger","Eat at all 3 dining halls","Kiss a first year","Quarry","Carter Mountain","High-five Dean Groves","Steam tunnels"));
@@ -35,12 +36,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ListView lvItems = (ListView) findViewById(R.id.lvItems);
-        items = new ArrayList<String>();
+       // items = new ArrayList<String>();
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, items);
+                android.R.layout.simple_list_item_checked, items);
         lvItems.setAdapter(itemsAdapter);
-        items.add("First Item");
-        items.add("Second Item");
+
+        lvItems.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+        Log.i("MyActivity", "hello");
+        //items.add("First Item");
+        //items.add("Second Item");
     }
 
     @Override
@@ -74,4 +78,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Test git",
                 Toast.LENGTH_LONG).show();
     }
+
+
 }
