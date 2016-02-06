@@ -17,7 +17,7 @@ import java.util.Arrays;
 import android.util.Log;
 public class MainActivity extends AppCompatActivity {
     //String[] mobileArray = {"Streak the lawn","Eat a gus burger","Eat at all 3 dining halls","Kiss a first year","Quarry","Carter Mountain","High-five Dean Groves","Steam tunnels"};
-    private ArrayList<String> items = new ArrayList<>(Arrays.asList("Streak the lawn","Eat a gus burger","Eat at all 3 dining halls","Kiss a first year","Quarry","Carter Mountain","High-five Dean Groves","Steam tunnels"));
+    private ArrayList<String> items = new ArrayList<>(Arrays.asList("Streak the lawn","Eat a gus burger","Eat at all 3 dining halls","IM sport","Quarry","Carter Mountain","High-five Dean Groves","Steam tunnels"));
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
