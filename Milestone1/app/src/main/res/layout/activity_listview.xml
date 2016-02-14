@@ -7,4 +7,15 @@
     android:padding="10dip"
     android:textSize="16dip"
     android:textStyle="bold" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:id="@+id/btnAddItem"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="testClick"/>
 </TextView>
+

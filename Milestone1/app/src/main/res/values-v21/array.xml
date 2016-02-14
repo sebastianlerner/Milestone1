@@ -1,0 +1,19 @@
+<resources>
+    <string-array name="sections">
+        <item >Streak The Lawn</item>
+        <item >Eat a gus burger</item>
+        <item >Eat at all 3 dining halls</item>
+        <item >Play an IM sport</item>
+        <item >Quarry</item>
+        <item >Carter Mountain</item>
+        <item >High-five Dean Groves</item>
+        <item >Steam tunneling</item>
+        <item >Survivor hour @ Biltmore</item>
+        <item >Paint Beta Bridge</item>
+        <item >All-nighter in Clem</item>
+        <item >Sunday funday</item>
+        <item >Foxfield</item>
+
+
+    </string-array>
+</resources>
